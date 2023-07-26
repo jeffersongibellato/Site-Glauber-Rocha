@@ -17,24 +17,23 @@ header{
     background-color: var(--cor1);
     background-attachment: fixed;
 }
-   div#imgGlauber{ 
+div#imgGlauber{ 
+    padding:120px;
     background-image: url('ImagensHTML/GlauberHeader.jpg');
-    background-attachment: scroll;
     background-size: contain;
     display: inline-block;
-    background-position: bottom center;
+    background-position: bottom right;
     background-repeat: no-repeat;
-    width: 285px;
-   }
+}
 h1{ 
     text-align: right;
 }
+
 li{
-    margin-top:200px;
+    background-color: BLACK;
     color: var(--cor2);
     text-align: center;
     width: 100px;
-    background-color: rgb(0, 0, 0);
     font: normal bolder 15px serif; 
     display: inline-block;
 }
