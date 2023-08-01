@@ -18,12 +18,13 @@ header{
     background-attachment: fixed;
 }
 div#imgGlauber{ 
-    padding:120px;
+    padding:140px;
     background-image: url('ImagensHTML/GlauberHeader.jpg');
     background-size: contain;
     display: inline-block;
     background-position: bottom right;
     background-repeat: no-repeat;
+    margin-bottom: -23px;
 }
 h1{ 
     text-align: right;
