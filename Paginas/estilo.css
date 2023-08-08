@@ -119,14 +119,14 @@ menu{
 li{
     background-color: rgba(0, 0, 0, 0.533);
     text-align: center;
-    width: 65px;
+    width: 60px;
     display: inline-block;
-    padding: 0px 12px 0px 10px;
+    padding: 0px 16px 0px 16px;
 }
 li > a{
     color: white;
     text-decoration: none;
-    font: normal bolder 14px serif; 
+    font: normal bolder 13px serif; 
 }
 li > a:hover{
     color:black;
