@@ -121,12 +121,12 @@ li{
     text-align: center;
     width: 60px;
     display: inline-block;
-    padding: 0px 16px 0px 16px;
+    padding: 0px 10px 0px 16px;
 }
 li > a{
     color: white;
     text-decoration: none;
-    font: normal bolder 13px serif; 
+    font: normal bolder 11px serif; 
 }
 li > a:hover{
     color:black;
