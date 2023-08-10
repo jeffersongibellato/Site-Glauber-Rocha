@@ -139,7 +139,6 @@ li#lium:hover{
  display: inline-block;
  background-repeat: no-repeat;
  background-size: cover;
- padding-top: 20px;
  padding-bottom: 60px;
  color:black;
  border-radius: 10px;
@@ -151,7 +150,6 @@ li#lidois:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 20px;
     padding-bottom: 60px;
     color:black;
     border-radius: 10px;
@@ -163,7 +161,6 @@ li#litres:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 20px;
     padding-bottom: 60px;
     color:black;
     border-radius: 10px;
@@ -175,7 +172,6 @@ li#liquatro:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 20px;
     padding-bottom: 60px;
     color:black;
     border-radius: 10px;
@@ -187,7 +183,7 @@ box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
     margin:auto;
     text-align: center;
     background-attachment: fixed;
-    padding: 0px 30px 0px 30px;
+    padding: 50px 30px 0px 30px;
     width: 800px;
     background-color: rgba(141, 205, 115, 0.677);
 }
