@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
-    background-color: rgba(12, 27, 62, 0.852);
+    background-color: rgba(152, 154, 158, 0.852);
 }
 *{
     margin: 0px;
@@ -12,6 +13,7 @@ h1{
     padding-top: 40px;
     padding-bottom: 90px;
     font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 header{
     -webkit-box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
@@ -26,7 +28,7 @@ box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
     background-position: center center;
 }
 menu{
-    padding-top: 75px;
+    padding-top: 71px;
     text-align: center;
 }
 li{
@@ -51,7 +53,7 @@ li#lium:hover{
  display: inline-block;
  background-repeat: no-repeat;
  background-size: cover;
- padding-bottom: 40px;
+ padding-top: 40px;
  color:black;
  border-radius: 10px;
 }
@@ -62,7 +64,7 @@ li#lidois:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 40px;
+    padding-top: 40px;
     color:black;
     border-radius: 10px;
 }
@@ -73,7 +75,7 @@ li#litres:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 40px;
+    padding-top: 40px;
     color:black;
     border-radius: 10px;
 }
@@ -84,17 +86,33 @@ li#liquatro:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 40px;
+    padding-top: 40px;
     color:black;
     border-radius: 10px;
 }
 main{
     background-attachment: fixed;
-    background-color: rgba(141, 205, 115, 0.677);
+    background-color: rgba(89, 148, 124, 0.844);
+}
+h2{
+    color: black;
+    padding-top: 200px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color: white;
 }
 div{
     display: inline-block;
-    width:130px;
+    width:100%;
+    -webkit-box-shadow: inset 0px 0px 148px 20px rgba(0,0,0,0.52);
+-moz-box-shadow: inset 0px 0px 148px 20px rgba(0,0,0,0.52);
+box-shadow: inset 0px 0px 148px 20px rgba(0,0,0,0.52);
 }
 div#terraemtranse{
     text-align: center;
@@ -103,6 +121,13 @@ div#terraemtranse{
     background-size: cover;
     background-position: center center;
 }
+div#terraemtranse:hover{
+    transition-duration: 2s;
+    background-color: rgb(99, 99, 99);
+    color:white;
+    background-image: none;
+    font-weight: bolder;
+}
 div#deusdiaboterrasol{
     background-image: url(ImagensHTML/CoriscoFilmografia.jpg);
     height: 400px;
@@ -110,11 +135,26 @@ div#deusdiaboterrasol{
     background-position: center center;
     text-align: center;
 }
+div#deusdiaboterrasol:hover{
+    transition-duration: 2s;
+    background-color: red;
+    color:white;
+    background-image: none;
+    font-weight: bolder;
+}
 div#dragaomaldade{
+    background-image: url(ImagensHTML/dragaomaldadeFilmografia.jpg);
     height: 400px;
     background-size: cover;
     background-position: right center;
     text-align: center;
+}
+div#dragaomaldade:hover{
+    transition-duration: 2s;
+    background-color:burlywood;
+    color:white;
+    background-image: none;
+    font-weight: bolder;
 }
 footer{
     background-color: black;
