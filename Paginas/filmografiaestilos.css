@@ -9,8 +9,9 @@ body{
 h1{ 
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 90px;
+    font-size: 30px;
 }
 header{
     -webkit-box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
@@ -25,7 +26,8 @@ box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
     background-position: center center;
 }
 menu{
-    padding-top: 25px;
+    padding-top: 75px;
+    text-align: center;
 }
 li{
     background-color: rgba(0, 0, 0, 0.533);
@@ -87,18 +89,32 @@ li#liquatro:hover{
     border-radius: 10px;
 }
 main{
-    -webkit-box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
--moz-box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
-box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
-    margin:0px 34px 0px 34px;
-    text-align: center;
     background-attachment: fixed;
     background-color: rgba(141, 205, 115, 0.677);
 }
-h2{
-    text-decoration: underline;
-    padding-top: 14px;
-    padding-bottom: 8px;
+div{
+    display: inline-block;
+    width:130px;
+}
+div#terraemtranse{
+    text-align: center;
+    background-image: url(ImagensHTML/TerraEmTranseFilmografia.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+div#deusdiaboterrasol{
+    background-image: url(ImagensHTML/CoriscoFilmografia.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+div#dragaomaldade{
+    height: 400px;
+    background-size: cover;
+    background-position: right center;
+    text-align: center;
 }
 footer{
     background-color: black;
