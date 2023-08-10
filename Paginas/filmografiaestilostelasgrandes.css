@@ -1,8 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
-    background-color: rgba(179, 39, 120, 0.852);
+    background-color: rgba(12, 27, 62, 0.852);
 }
 *{
     margin: 0px;
     padding: 0px;
     border: 0px;
+}
+h1{ 
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+header{
+    -webkit-box-shadow: inset -9px -163px 114px 51px rgba(0,0,0,0.52);
+    -moz-box-shadow: inset -9px -163px 114px 51px rgba(0,0,0,0.52);
+    box-shadow: inset -9px -163px 114px 51px rgba(0,0,0,0.52);
+    background-image: url(ImagensHTML/headerFilmografia.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    height: 460px;
+    width:100%;
+    background-position: center center;
+}
+menu{
+    padding-top: 240px;
+    text-align: center;
+}
+li{
+    background-color: rgba(0, 0, 0, 0.533);
+    text-align: center;
+    width: 248px;
+    display: inline-block;
+    padding: 0px 10px 0px 16px;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    font: normal bolder 14px serif; 
+}
+li > a:hover{
+    color:black;
+}
+li#lium:hover{
+ transition-duration: 0.5s;
+ background-image: url(ImagensHTML/HorizontalGlauber.jpg);
+ background-position: bottom center;
+ display: inline-block;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top: 40px;
+ color:black;
+ border-radius: 10px;
+}
+li#lidois:hover{
+    transition-duration: 0.5s;
+    background-image: url(ImagensHTML/Corisco.jpg);
+    background-position: center center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    color:black;
+    border-radius: 10px;
+}
+li#litres:hover{
+    transition-duration: 0.5s;
+    background-image: url(ImagensHTML/Curiana.jpg);
+    background-position: center center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    color:black;
+    border-radius: 10px;
+}
+li#liquatro:hover{
+    transition-duration: 0.5s;
+    background-image: url(ImagensHTML/AntonioMortes.jpg);
+    background-position: bottom center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    color:black;
+    border-radius: 10px;
+}
+main{
+    text-align: center;
+    background-color: rgba(89, 148, 124, 0.844);
+    margin: 0px 30px 0px 30px;
+}
+h2{
+    color: black;
+    padding-top: 200px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color: white;
+}
+div{
+    display: inline-block;
+    -webkit-box-shadow: inset 0px 0px 148px 20px rgba(0,0,0,0.52);
+-moz-box-shadow: inset 0px 0px 148px 20px rgba(0,0,0,0.52);
+box-shadow: inset 0px 0px 148px 20px rgba(0,0,0,0.52);
+width:33%;
+height: 500px;
+text-align: center;
+background-size: cover;
+}
+div#terraemtranse{
+    background-image: url(ImagensHTML/TerraEmTranseFilmografia.jpg);
+    background-position: top center;
+}
+div#terraemtranse:hover{
+    transition-duration: 2s;
+    background-color: rgb(99, 99, 99);
+    color:white;
+    background-image: none;
+    font-weight: bolder;
+}
+div#deusdiaboterrasol{
+    background-image: url(ImagensHTML/CoriscoFilmografia.jpg);
+    background-position: center center;
+}
+div#deusdiaboterrasol:hover{
+    transition-duration: 2s;
+    background-color: red;
+    color:white;
+    background-image: none;
+    font-weight: bolder;
+}
+div#dragaomaldade{
+    background-image: url(ImagensHTML/dragaomaldadeFilmografia.jpg);
+    background-position: right top;
+}
+div#dragaomaldade:hover{
+    transition-duration: 2s;
+    background-color:burlywood;
+    color:white;
+    background-image: none;
+    font-weight: bolder;
+}
+footer{
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: rgba(159, 159, 159, 0.581);
 }
