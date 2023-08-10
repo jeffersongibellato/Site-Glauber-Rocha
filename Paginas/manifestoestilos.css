@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(12, 27, 62, 0.852);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+header{
+    -webkit-box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
+box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
+    background-image: url(ImagensHTML/_Antonio\ das\ Mortes_\ Film\ Poster\ _\ Poster\ _\ Wisconsin\ Historical\ Society.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;
+    height: 290px;
+    width:100%;
+    background-position: right top;
+}
