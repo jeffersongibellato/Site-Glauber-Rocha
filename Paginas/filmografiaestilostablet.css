@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
-    background-color: rgba(12, 27, 62, 0.852);
+    background-color: rgba(102, 102, 102, 0.707);
 }
 *{
     margin: 0px;
@@ -53,7 +53,7 @@ li#lium:hover{
  display: inline-block;
  background-repeat: no-repeat;
  background-size: cover;
- padding-top: 40px;
+ padding-bottom: 20px;
  color:black;
  border-radius: 10px;
 }
@@ -64,7 +64,7 @@ li#lidois:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40px;
+    padding-bottom: 20px;
     color:black;
     border-radius: 10px;
 }
@@ -75,7 +75,7 @@ li#litres:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40px;
+    padding-bottom: 20px;
     color:black;
     border-radius: 10px;
 }
@@ -86,14 +86,14 @@ li#liquatro:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40px;
+    padding-bottom: 20px;
     color:black;
     border-radius: 10px;
 }
 main{
     background-attachment: fixed;
     background-color: rgba(89, 148, 124, 0.844);
-    margin: 0px 30px 0px 30px;
+    margin: 20px 30px 0px 30px;
 }
 h2{
     color: black;
@@ -123,7 +123,7 @@ div#terraemtranse{
     background-position: top center;
 }
 div#terraemtranse:hover{
-    transition-duration: 2s;
+    transition-duration: 1s;
     background-color: rgb(99, 99, 99);
     color:white;
     background-image: none;
@@ -137,7 +137,7 @@ div#deusdiaboterrasol{
     text-align: center;
 }
 div#deusdiaboterrasol:hover{
-    transition-duration: 2s;
+    transition-duration: 1s;
     background-color: red;
     color:white;
     background-image: none;
@@ -151,7 +151,7 @@ div#dragaomaldade{
     text-align: center;
 }
 div#dragaomaldade:hover{
-    transition-duration: 2s;
+    transition-duration: 1s;
     background-color:burlywood;
     color:white;
     background-image: none;
