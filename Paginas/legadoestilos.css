@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 body{
     background-color: rgba(12, 27, 62, 0.852);
 }
@@ -10,40 +9,38 @@ body{
     border: 0px;
 }
 header{
-    -webkit-box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
--moz-box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
-box-shadow: inset 0px -124px 117px 10px rgba(0,0,0,0.75);
-    background-image: url(ImagensHTML/_Antonio\ das\ Mortes_\ Film\ Poster\ _\ Poster\ _\ Wisconsin\ Historical\ Society.jpg);
-    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 2px 27px 75px -7px rgba(0,0,0,0.59);
+-moz-box-shadow: inset 2px 27px 75px -7px rgba(0,0,0,0.59);
+box-shadow: inset 2px 27px 75px -7px rgba(0,0,0,0.59);
+    background-image: url(ImagensHTML/GlauberRochaFilhos.jpg);
     display: inline-block;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width:100%;
-    background-position: right top;
+    text-align: center;
+    width: 100%;
+    height: 250px;
 }
 h1{ 
-    font-family: 'Bebas Neue', sans-serif;
     color: white;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 30px;
     padding-bottom: 90px;
-    font-size: 60px;
 }
 menu{
-    padding-top: 260px;
+    padding-top: 74px;
     text-align: center;
 }
 li{
     background-color: rgba(0, 0, 0, 0.533);
     text-align: center;
-    width: 150px;
+    width: 60px;
     display: inline-block;
     padding: 0px 10px 0px 16px;
 }
 li > a{
     color: white;
     text-decoration: none;
-    font: normal bolder 17px serif; 
+    font: normal bolder 11px serif; 
 }
 li > a:hover{
     color:black;
@@ -55,7 +52,7 @@ li#lium:hover{
  display: inline-block;
  background-repeat: no-repeat;
  background-size: cover;
- padding-bottom: 40px;
+ padding-bottom: 15px;
  color:black;
  border-radius: 10px;
 }
@@ -66,7 +63,7 @@ li#lidois:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     color:black;
     border-radius: 10px;
 }
@@ -77,47 +74,35 @@ li#litres:hover{
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     color:black;
     border-radius: 10px;
 }
 li#liquatro:hover{
     transition-duration: 0.5s;
     background-image: url(ImagensHTML/AntonioMortes.jpg);
-    background-position: bottom center;
+    background-position: center center;
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     color:black;
     border-radius: 10px;
+}
+h2{
+    text-decoration: underline;
+    padding-top: 14px;
+    padding-bottom: 8px;
 }
 main{
     -webkit-box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
 -moz-box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
 box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
-    margin:0px 320px 0px 320px;
+    margin:0px 34px 0px 34px;
+    padding-top: 25px;
     text-align: center;
     background-attachment: fixed;
     background-color: rgba(141, 205, 115, 0.677);
-    padding-top: 40px;
-}
-h2{
-    padding-bottom: 10px;
-    text-decoration: underline;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 30px;
-}
-h3{
-    font-family: 'Bebas Neue', sans-serif;
-}
-article > p{
-    padding-bottom: 10px;
-    font-weight: lighter;
-}
-div#manifestotexto{
-    margin: 0px 130px 0px 130px;
-    line-height: 25px;
 }
 footer{
     background-color: black;
