@@ -21,10 +21,11 @@ box-shadow: inset 2px 27px 75px -7px rgba(0,0,0,0.59);
     height: 250px;
 }
 h1{ 
+    font-family: 'Bebas Neue', sans-serif;
     color: white;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 90px;
+    padding-bottom: 86px;
 }
 menu{
     padding-top: 74px;
@@ -91,18 +92,61 @@ li#liquatro:hover{
 }
 h2{
     text-decoration: underline;
-    padding-top: 14px;
-    padding-bottom: 8px;
+    padding: 0px 12px 14px 12px;
 }
 main{
     -webkit-box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
 -moz-box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
 box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
-    margin:0px 34px 0px 34px;
-    padding-top: 25px;
+    margin:0px 40px 0px 40px;
+    padding: 25px 28px 0px 28px;
     text-align: center;
     background-attachment: fixed;
     background-color: rgba(141, 205, 115, 0.677);
+}
+div#imagemtexto01{
+    display: inline-block;
+    background-image: url(ImagensHTML/posterGlauberRocha.jpg);
+    width:200px;
+    height: 200px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+}
+div#imagemtexto02{
+    display: inline-block;
+    background-image: url(ImagensHTML/CasamentoIgnes.jpg);
+    width:240px;
+    height: 170px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    background-position: center center;
+}
+div#imagemtexto03{
+    display: inline-block;
+    background-image: url(ImagensHTML/GlauberRochaParis1971.jpg);
+    width:240px;
+    height: 170px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    background-position: center center;
+}
+div#imagemtexto04{
+    display: inline-block;
+    background-image: url(ImagensHTML/TerraEmTranseLegado.jpg);
+    width:240px;
+    height: 170px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    background-position: center center;
+}
+div#imagemtexto05{
+    display: inline-block;
+    background-image: url(ImagensHTML/ChicoCience.jpg);
+    width:220px;
+    height: 170px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+    background-position: center center;
 }
 footer{
     background-color: black;
