@@ -104,6 +104,9 @@ box-shadow: 0px 20px 54px -16px rgba(0,0,0,0.83);
     background-attachment: fixed;
     background-color: rgba(141, 205, 115, 0.677);
 }
+div > p{
+    color: transparent;
+}
 div#imagemtexto01{
     display: inline-block;
     background-image: url(ImagensHTML/posterGlauberRocha.jpg);
@@ -147,6 +150,21 @@ div#imagemtexto05{
     background-size: cover;
     margin: 10px 0px 10px 0px;
     background-position: center center;
+}
+div:hover{
+    transition-duration: 0.5s;
+    -webkit-box-shadow: inset 0px -87px 104px -4px rgba(0,0,0,0.83);
+-moz-box-shadow: inset 0px -87px 104px -4px rgba(0,0,0,0.83);
+box-shadow: inset 0px -87px 104px -4px rgba(0,0,0,0.83);
+display: inline-block;
+}
+div > p:hover{
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+    font-weight: lighter;
+    font-style: italic;
+    padding-top: 140px;
 }
 footer{
     background-color: black;
